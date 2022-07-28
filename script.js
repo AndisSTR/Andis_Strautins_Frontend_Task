@@ -113,7 +113,7 @@ function restartQuiz() {
     _playAgainBtn.style.display = "none";
     _checkBtn.style.display = "block";
     _checkBtn.disabled = false;
-    _options.style.display = "block";
+    _options.style.display = "flex";
     _question.style.display = "block";
     _score.style.display = "block";
     setCount();
